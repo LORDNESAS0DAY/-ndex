@@ -1,0 +1,2 @@
+# -ndex
+İndexler için sadece 
