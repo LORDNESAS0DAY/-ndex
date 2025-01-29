@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked By NESAS_0DAY</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url('https://media2.giphy.com/media/VdVwQxkrlOaKXswqw8/giphy.gif?cid=6c09b952542u7w1jt2c0u6n2x8yjbshfha90lt34s4o59hcw&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .content {
+            color: #ff3333;
+            font-size: 4rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            animation: glowing 2s ease-in-out infinite, textColor 5s infinite alternate;
+            text-shadow: 0 0 5px #ff3333, 0 0 10px #ff3333, 0 0 15px #ff3333, 0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 40px #ff3333;
+        }
+
+        /* Parlama animasyonu */
+        @keyframes glowing {
+            0% { text-shadow: 0 0 5px #ff3333, 0 0 10px #ff3333, 0 0 20px #ff3333, 0 0 40px #ff3333, 0 0 80px #ff3333; }
+            50% { text-shadow: 0 0 10px #ff3333, 0 0 20px #ff3333, 0 0 30px #ff3333, 0 0 50px #ff3333, 0 0 100px #ff3333; }
+            100% { text-shadow: 0 0 5px #ff3333, 0 0 10px #ff3333, 0 0 20px #ff3333, 0 0 40px #ff3333, 0 0 80px #ff3333; }
+        }
+
+        /* Renk geçişi animasyonu */
+        @keyframes textColor {
+            0% { color: #ff3333; }
+            50% { color: #ff6600; }
+            100% { color: #ff3333; }
+        }
+
+        /* Footer yazıları için stil */
+        .footer-content {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 5px #000000;
+        }
+
+        @media (max-width: 600px) {
+            .content {
+                font-size: 2.5rem;
+            }
+            .footer-content {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        Hacked<br>By Nesas_0day
+    </div>
+    <div class="footer-content">
+        Root Team & LORDDEFACERTEAM
+    </div>
+</body>
+</html>
